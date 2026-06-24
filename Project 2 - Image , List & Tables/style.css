@@ -1,0 +1,31 @@
+*{
+    font-family: poppins;
+}
+thead{
+    background-color: aquamarine;
+    
+}
+thead tr{
+    text-align: center;
+}
+
+tbody tr td{
+    text-align: center;
+    background-color: rgb(240, 243, 247);
+}
+
+table caption{
+    background-color: aqua;
+}
+
+tfoot{
+    background-color: burlywood;
+    
+}
+tfoot tr{
+    text-align: center;
+}
+
+tfoot tr td:first-of-type{
+    background-color: rgb(255, 183, 27);
+}
