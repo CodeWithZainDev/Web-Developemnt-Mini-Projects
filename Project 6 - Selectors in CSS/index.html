@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors - CodeWithZain</title>
+</head>
+<body>
+
+    <h1>Selectors used in CSS:</h1>
+
+    <ul>
+        <li>Simple Selectors</li>
+        <li>Combinator Selectors</li>
+        <li>Attribute Selectors</li>
+        <li>Pseudo-Class Selectors</li>
+        <li>Pseudo-Element Selectors</li>
+    </ul>
+
+    <h2>Simple Selectors</h2>
+
+    <ul>
+        <li><b>Element Selector:</b> Selects all occurrences of a specific HTML element.</li> 
+        <li><b>Class Selector:</b> Selects all elements with the class btn.</li>
+        <li><b>ID Selector:</b> #header Selects the element with the ID header.</li>
+        <li><b>Universal Selector:</b> *{} Selects all elements on the page.</li>
+    </ul>
+
+    <h2>Combinator Selectors</h2>
+
+    <ul>
+        <li><b>Descendant Selector:</b> A space B Selects all B elements that are inside A, at any nesting level.</li>
+        <li><b>Child Selector:</b> A>B Selects only B elements that are direct children of A.</li>
+        <li><b>Adjacent Sibling Selector:</b> A+B Selects the first B element immediately after A.</li>
+        <li><b>General Sibling Selector:</b> A~B Selects all B elements that are siblings of A and come after it.</li>
+    </ul>
+
+    <h2>Attribute Selectors</h2>
+
+    <ul>
+        <li><b>Has Attribute [attr]: </b>Selects elements that have the specified attribute.</li>
+        <li><b>Exact Match [attr="value"]:</b> Selects elements whose attribute value exactly matches the specified value.</li>
+        <li><b>Start with ^=</b> Selects elements whose attribute value starts with the specified value.</li>
+        <li><b>Ends with $=</b> Selects elements whose attribute value ends with the specified value.</li>
+        <li><b>Contains *=<</b> Selects elements whose attribute value contains the specified value./li>
+        <li><b>Space-Separated Value ~=</b> Selects elements whose attribute contains the specified word in a space-separated list.</li>
+        <li><b>Hyphen-Separated Value |=</b> Selects elements with lang="en" or values starting with en-.</li>
+    </ul>
+
+    <h2>Pseudo-Class Selectors</h2>
+    <ul>
+        <h4>These are most commonly used:</h4>
+
+        <li><b>:hover</b> Selects an element when the mouse pointer is over it.</li>
+        <li><b>:active</b> Selects an element while it is being clicked</li>
+        <li><b>:focus</b> Selects an element that currently has focus.</li>
+        <li><b>:visited</b> Selects links that have already been visited.</li>
+        <li><b>:link</b> Selects links that have not been visited yet.</li>
+        <li><b>:first-child</b> Selects an element that is the first child of its parent.</li>
+        <li><b>:nth-child(n)</b> Selects an element based on its position among siblings.</li>
+        <li><b>:last-child</b> Selects an element that is the last child of its parent.</li>
+        <li><b>:checked</b> Selects checked radio buttons and checkboxes.</li>
+        <li><b>:disabled</b> Selects disabled form elements.</li>
+        <li><b>:first-of-type</b> Selects the first occurrence of a specific element type.</li>
+        <li><b>:nth-of-type(n)</b> Selects an element of a specific type based on its position.</li>
+        <li><b>:last-of-type</b> Selects the last occurrence of a specific element type.</li>
+        <li><b>:only-child</b> Selects an element that is the only child of its parent.</li>
+        <li><b>:invalid</b> Selects form fields with invalid input.</li>
+        <li><b>:not</b> Selects elements that do not match the specified selector.</li>
+        <li><b>:root</b> Selects the root element (<html>).</li>
+        <li><b>:target</b> Selects an element whose ID matches the URL fragment.</li>
+        <li><b>:empty</b> Selects elements with no child elements or text content.</li>
+        <li><b>:required</b> Selects form fields that are required.</li>
+        <li><b>:valid</b> Selects form fields with valid input.</li>
+    </ul>
+
+    <h2>Pseudo-Element Selectors</h2>
+
+    <ul>
+        <li><b>::before</b> Inserts content before an element's content.</li>
+        <li><b>::after</b> Inserts content after an element's content.</li>
+        <li><b>::first-letter</b> Selects the first letter of a text block.</li>
+        <li><b>::first-line</b> Selects the first line of a text block.</li>
+        <li><b>::placeholder</b> Styles the placeholder text of form controls.</li>
+        <li><b>::selection</b> Styles text selected by the user.</li>
+        <li><b>::marker</b> Styles list item markers (bullets/numbers).</li>
+        <li><b>::file-selector-button</b> Styles the button of a file input.</li>
+        <li><b>::backdrop</b> Styles the background layer behind fullscreen elements or dialogs.</li>
+        <li><b>::cue</b> Styles captions/subtitles in media elements.</li>
+        <li><b>::part()</b> Selects and styles exposed parts of a Web Component.</li>
+        <li><b>::slotted()</b> Selects elements passed into a Web Component slot.</li>
+        <li><b>::target-text</b> Styles text targeted/highlighted by a URL fragment.</li>
+    </ul>
+    
+</body>
+</html>
